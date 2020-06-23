@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.body {
+	font-family: 'Baloo 2', cursive;
+}
+
+.loading {
+	margin: 300px;
+}
+
+.navbar {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.logo {
+	width: 80px;
+}
+
+.cart-icon {
+	width: 50px;
+}
+
+.select-district {
+	margin-top: 0px;
+}
+
+.dist-text {
+	color: #ffffff;
+	font-weight: 800;
+}
+
+.main {
+	align-items: center;
+}
+
+.heading {
+	font-family: 'Baloo 2', cursive;
+	font-weight: 700;
+}
+
+.farms {
+	margin-top: 4rem;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	text-align: center;
+	margin-left: 22.3rem;
+	margin-right: 22.3rem;
+	text-align: left;
+}
+
+.farm {
+	margin-top: 20px;
+	color: #000000;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-top: 30px;
+	padding-bottom: 26px;
+	padding-left: 20px;
+	padding-right: 50px;
+	background-color: #faee1c;
+	border-radius: 5px;
+	border: none;
+	transition: transform .2s;
+	font-family: 'Baloo 2', cursive;
+}
+
+@media screen and (max-width: 600px){
+	.loading {
+		padding-top: 300px;
+		margin: 70px;
+	}
+
+	.navbar {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.cart-icon {
+		width: 40px;
+	}
+
+	.input-section {
+		margin-top: 60px;
+		margin-left: 40%;
+	}
+
+	.select-district {
+		margin-top: 5px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.dist {
+		padding: 30px;
+	}
+
+	.farms {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+.main-div {
+	text-align: center;
+	margin-left: 0rem;
+	margin-right: 0rem;
+}
+
+.main-search {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 200px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: none;
+	transition: transform .2s;
+    box-shadow:  10px 10px 60px #ECECEC, 
+             -10px -10px 60px #ECECEC;
+}
+
+.main-search:hover {
+	background-color: #ffffff;
+	transform: scale(1.05);
+}
+
+.info {
+	margin-top: 35px;
+	font-family: 'Baloo 2', cursive;
+	color: #bbbbbb;	
+	padding-bottom: 30px;
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 600px){
+	.main-div {
+		margin-right: 2rem;
+	}
+
+	.main-search {
+		box-shadow:  10px 10px 20px #ECECEC, 
+             -10px -10px 20px #ECECEC;
+        padding-right: 180px;
+	}
+}
+
+.btn {
+	background-color: #000000;
+	border-radius: 4px;
+	color: #ffffff;
+}
+
+.btn:hover {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.btn-2 {
+	margin-left: 5px;
+}
+
+.loading {
+	text-align: center;
+	animation:blinkingText 2s infinite;
+	color: #bbbbbb;
+	font-family: 'Baloo 2', cursive;
+}
+
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+.snap-img {
+	margin-top: 100px;
+	width: 200px;
+	border-radius: 5px;
+}
+
+.snap-text {
+	margin-top: 20px;
+	font-family: 'Baloo 2', cursive;
+}
